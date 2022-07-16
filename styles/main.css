@@ -55,7 +55,6 @@ main {
   line-height: 23px;
   width: 380px;
   font-size: 1.1rem;
-
 }
 
 .make-abs2 p a {
@@ -83,17 +82,12 @@ main {
   color: white;
 }
 
-
-
 /* Herobox2 */
-
 .intersection-heading {
   height: 170px;
   background-color: white;
   padding: 30px;
 }
-
-
 
 .intersection-wrap h1 {
   font-size: 2.4rem;
@@ -118,7 +112,6 @@ main {
   color: gray;
   transition: color 0.15s;
   height: 40px;
-
 }
 
 .button-wrap button:hover {
@@ -172,11 +165,14 @@ main {
 
 .herobox2-part2 {
   display: flex;
+  max-width: 100%;
 }
 
 .hero-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  position: relative;
+
 }
 
 .card {
@@ -224,4 +220,18 @@ main {
 .card-price {
   font-size: 1.4rem;
   font-weight: 800;
+}
+
+.bestseller {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3d3c0a; 
+  background-color: #eceb98;
+  width: 85px;
+  height: 23px;
+  font-weight: 700;
+  border-radius: 1px;
+  margin-top: 10px;
+  font-size: 0.9rem;
 }
