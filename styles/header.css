@@ -1,3 +1,38 @@
+.notification-slab {
+  height: 65px;
+  background-color: #5624D0;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  color: white;
+}
+
+.notification-spot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.notification-slab h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.notification-slab p {
+  font-size: 1.1rem;
+  /* margin-top: 8px; */
+}
+
+.exit {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-weight: 700;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 header {
   background-color: white;
   height: 70px;
