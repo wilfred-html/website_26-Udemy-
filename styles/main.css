@@ -1,0 +1,28 @@
+main {
+  background-color: red;
+  min-height: 1000px;
+}
+
+.herobox1 {
+  background-color: green;
+  min-height: 400px;
+}
+
+.img-1 {
+  position: relative;
+}
+
+.make-abs {
+  position: absolute;
+  left: 100px;
+  width: 430px;
+  height: 150px;
+  background-color: white;
+  top: 15%;
+  
+}
+
+.text p {
+  color: black;
+
+}

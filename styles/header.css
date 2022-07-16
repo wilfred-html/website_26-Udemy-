@@ -11,17 +11,8 @@ header {
   align-items: center;
 }
 
-.mylogo {
-}
-
 .mylogo img {
   width: 100px;
-}
-
-.mycat {
-}
-
-.search-container {
 }
 
 .search-wrap {
@@ -49,7 +40,6 @@ header {
   border: none;
   background-color: #d9d9d900;
   padding-left: 20px;
-
 }
 
 .teach {
@@ -72,7 +62,6 @@ header {
 
 .cart {
   margin-right: 20px;
-
 }
 
 .log-in {
