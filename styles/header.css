@@ -29,6 +29,7 @@ header {
 }
 
 .myvoice {
+  color: black;
   padding-left: 20px;
   cursor: not-allowed;
 }

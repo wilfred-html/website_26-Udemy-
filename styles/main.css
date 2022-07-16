@@ -12,6 +12,10 @@ main {
   position: relative;
 }
 
+.img-2 {
+  position: relative;
+}
+
 .make-abs {
   position: absolute;
   left: 100px;
@@ -19,10 +23,59 @@ main {
   height: 150px;
   background-color: white;
   top: 15%;
-  
+  padding: 20px;
 }
 
-.text p {
+.text h1 {
   color: black;
+  font-size: 2.2rem;
+}
 
+.myh3 {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  width: 430px;
+}
+
+.make-abs2 {
+  position: absolute;
+  left: 100px;
+  width: 430px;
+  min-height: 150px;
+  background-color: white;
+  top: 15%;
+  padding: 20px;
+}
+
+.make-abs2 p {
+  margin-top: 10px;
+  line-height: 23px;
+  width: 380px;
+  font-size: 1.1rem;
+
+}
+
+.make-abs2 p a {
+  text-decoration: underline;
+  color: #401B9C;
+}
+
+.request-demo {
+  border: none;
+  position: absolute;
+  left: 75px;
+  bottom: 14%;
+  background-color: #A535F1;
+  width: 148px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.request-demo a {
+ font-size: 1.1rem;
+ margin-top: 4px;
+ font-weight: 700;
+ color: white;
 }
