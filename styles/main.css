@@ -126,11 +126,15 @@ main {
 }
 
 .herobox2-container {
-  padding: 20px;
   border: 1px solid lightgray;
   height: 550px;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+.herobox2-part1 {
+  padding: 20px;
+
 }
 
 .herobox2-part1 h1 {
@@ -166,13 +170,14 @@ main {
 .herobox2-part2 {
   display: flex;
   max-width: 100%;
+  position: relative;
 }
 
 .hero-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  position: relative;
-
+  /* column-gap: 10px; */
+  
 }
 
 .card {
