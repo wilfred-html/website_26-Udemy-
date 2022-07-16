@@ -1,0 +1,63 @@
+header {
+  background-color: white;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 150px 100px 1fr 200px 300px;
+}
+
+.header-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mylogo {
+  background-color: rgb(255, 51, 0);
+}
+
+.mylogo img {
+  width: 100px;
+}
+
+.mycat {
+  background-color: rgb(145, 51, 0);
+}
+
+.search-container {
+  background-color: rgb(85, 51, 0);
+}
+
+.search-wrap {
+  background-color: white;
+  flex: 1;
+  max-width: 550px;
+  min-height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 500px;
+  height: 43px;
+  border: none;
+}
+
+.teach-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teach {
+  
+  
+  white-space: nowrap;
+}
+
+.teach a {
+  margin-right: 20px;
+}
