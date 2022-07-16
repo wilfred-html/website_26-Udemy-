@@ -125,6 +125,7 @@ main {
   color: black;
 }
 
+/* herobox2 */
 .herobox2 {
   height: 600px;
   padding: 20px;
@@ -134,7 +135,7 @@ main {
 .herobox2-container {
   padding: 20px;
   border: 1px solid lightgray;
-  height: 400px;
+  height: 550px;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -145,18 +146,82 @@ main {
 
 .herobox2-part1 p {
   margin-top: 6px;
-  width: 720px;
-  color: rgb(90, 90, 90);
+  width: 900px;
+  color: black;
+  font-size: 1.2rem;
 }
 
 .herobox2-part1 a {
   margin-top: 15px;
-  width: 120px;
-  height: 40px;
+  width: 135px;
+  height: 43px;
   background-color: white;
   border: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  transition: background-color 0.15s;
+}
+
+.herobox2-part1 a:hover {
+  background-color: #0c2a2b11;
+}
+
+/* Part2 */
+
+.herobox2-part2 {
+  display: flex;
+}
+
+.hero-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-img-top2 {
+  box-shadow: 1px 0px 1px black;
+}
+
+.card-title {
+  width: 260px;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card-subtitle {
+  color: gray;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.rating p {
+  color: rgb(170, 99, 17);
+  font-weight: 800;
+}
+
+.stars {
+  margin-right: 3px;
+  margin-left: 3px;
+  margin-top: 4px;
+}
+
+.responds {
+  font-size: 0.8rem;
+  color: rgb(75, 75, 75);
+}
+
+.card-price {
+  font-size: 1.4rem;
+  font-weight: 800;
 }
