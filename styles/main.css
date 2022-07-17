@@ -184,6 +184,33 @@ main {
   cursor: pointer;
 }
 
+.img-container {
+  position: relative;
+
+}
+.top-select {
+  position: absolute;
+  top: 0;
+  background-color: rgb(126, 110, 106);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-weight: 700;
+}
+
+.img-con {
+  width: 20px;
+  margin-right: 14px;
+}
+
+.img-con img {
+  width: 40px;
+  /* background-color: #A535F1; */
+}
+
 .card-img-top2 {
   box-shadow: 1px 0px 1px black;
 }

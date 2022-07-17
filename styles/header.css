@@ -68,6 +68,8 @@ header a:hover {
 
 .mycat {
   background-color: transparent;
+  justify-content: start;
+  padding-left: 10px;
 }
 
 

@@ -12,6 +12,7 @@ function showSlides() {
   if (slideIndex> slides.length) {slideIndex = 1} 
   slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 6000); // Change image every 5 seconds
+ 
 }
 
 function currentSlide(no) {
@@ -28,6 +29,8 @@ var newslideIndex = slideIndex + n;
 if(newslideIndex < 4 && newslideIndex > 0){
    currentSlide(newslideIndex);
 }
+
+
 }
 
 
@@ -64,24 +67,43 @@ if(newslideIndex2 < 4 && newslideIndex2 > 0){
    currentSlide2(newslideIndex2);
 }
 }
-
+// 
 
 
 // python scroll word
-function showthis(){
+function showthis201(){
   document.getElementById("prev1").style.display = "block";
 }
 
-function dontshow(){
+function dontshow201(){
   document.getElementById("prev1").style.display = "none";
 }
 
 
-function both() {
+function both201() {
   if(document.getElementById("prev1").style.display == "block"){
     dontshow()
   }
   else {
-    showthis()
+    showthis201()
+  }
+}
+
+
+function showthis202(){
+  document.getElementById("next1").style.display = "block";
+}
+
+function dontshow202(){
+  document.getElementById("next1").style.display = "none";
+}
+
+
+function both202() {
+  if(document.getElementById("next1").style.display == "block"){
+    dontshow()
+  }
+  else {
+    showthis202()
   }
 }

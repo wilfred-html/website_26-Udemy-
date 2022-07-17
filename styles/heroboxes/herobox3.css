@@ -1,13 +1,40 @@
 * {box-sizing:border-box}
 
-/* Hide the images by default */
-.mySlides2 {
-  display: none;
+.herobox3 {
+  background-color: chocolate;
+  min-height: 500px;
+
+}
+
+.hero-wrap3{
+  padding: 50px 20px;
+}
+
+.hero-wrap3 h1 {
+  font-size: 1.8rem;
+
 }
 
 
-/* Next & previous buttons */
-.prev2,.next2 {
+.herobox3-part2 {
+  display: flex;
+  max-width: 100%;
+  position: relative;
+}
+
+
+/* carousel */
+
+.slideshow-container3 {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides3 {
+  display: none;
+}
+
+.prev3-1,.next3-1 {
   cursor: pointer;
   position: absolute;
   top: 20%;
@@ -31,25 +58,15 @@
   justify-content: center;
 }
 
-#prev1 {
+
+#prev3-2 {
   display: none;
 }
 
-/* Position the "next button" to the right */
-.next2 {
+.next3-1 {
   right: 0;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -58,4 +75,16 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.img-3 {
+  position: relative;
+}
+
+
+.hero-cards3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* column-gap: 10px; */
+  
 }
