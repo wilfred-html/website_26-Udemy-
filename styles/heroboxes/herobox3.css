@@ -1,17 +1,17 @@
 * {box-sizing:border-box}
 
 .herobox3 {
-  background-color: chocolate;
+  background-color: white;
   min-height: 500px;
 
 }
 
 .hero-wrap3{
-  padding: 50px 20px;
+  padding: 50px 20px 10px 20px;
 }
 
 .hero-wrap3 h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 
 }
 
