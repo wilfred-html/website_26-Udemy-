@@ -1,0 +1,50 @@
+.herobox4 {
+  background-color: white;
+  height: 800px;
+}
+
+.hero-wrap4 {
+  padding: 40px 0px 10px 20px;
+}
+
+.hero-wrap4 h1 {
+  font-size: 1.7rem;
+}
+
+.herobox4-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  column-gap: 20px;
+  row-gap: 50px;
+  background-color: white;
+}
+
+
+.herocard4 {
+  background-color: white;
+  height: 300px;
+  cursor: pointer;
+ 
+}
+
+.herocard4img{
+  /* display: block; */
+  background-color: white;
+  object-fit: contain;
+  transition: transform 100ms cubic-bezier(.2,0,1,.9);
+  
+}
+
+
+.herocard4img:hover {
+  transform: scale(1.05);
+    transition: transform 150ms cubic-bezier(0,0,.38,.9);
+}
+
+
+.herocard4-title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
