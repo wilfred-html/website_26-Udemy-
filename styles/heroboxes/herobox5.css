@@ -1,4 +1,77 @@
 .herobox5 {
   background-color: #F7F9FA;
-  height: 300px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
+
+.hero-wrap5 {
+  /* background-color: crimson; */
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  
+}
+
+.herobox5-h1 {
+  margin: 0px 0px 30px 30px;
+  font-size: 1.7rem;
+  /* background-color: brown; */
+}
+
+.herobox5-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #F7F9FA;
+  height: 400px;
+}
+
+
+.hero-slab5 {
+  padding-left: 30px;
+
+}
+
+.hero-slab5-h1 {
+  margin: 0;
+  margin-bottom: 30px;
+
+}
+
+.slab-link {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.slab-link a {
+  color: #5624d0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  transition: color 80ms;
+  
+}
+
+.slab-link a:hover {
+  color: #401b9c;
+}
+
+.slab-link p {
+  margin-top: 12px;
+  color: #6a6f73;
+  font-size: 1.010rem;
+}
+
+.slabbutton {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 12px 12px;
+  transition: background-color 100ms;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.slabbutton:hover {
+  background-color: #E5E5E5;
+}
+
