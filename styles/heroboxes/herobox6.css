@@ -1,0 +1,69 @@
+.herobox6 {
+  background-color: white;
+  min-height: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  margin-bottom: 80px;
+
+}
+
+
+.herobox6-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  background-color: white;
+}
+
+.hero-img6 {
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  padding-left: 100px;
+}
+
+.hero-img6 img {
+  transform: scale(1);
+}
+
+
+.hero-become {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.textwrap6 {
+  margin-bottom: 80px;
+}
+
+.textwrap6 h1{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.textwrap6 p {
+  font-size: 1.4rem;
+  width: 70%;
+}
+
+.textwrap6 button {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  background-color: rgb(20, 20, 20);
+  border: 1px solid rgb(20, 20, 20);
+  padding: 15px 10px;
+  color: white;
+  font-weight: 700;
+  transition: border 100ms, 
+  background-color 100ms;
+  cursor: pointer;
+}
+
+.textwrap6 button:hover {
+  background-color: black;
+  border: 1px solid black ;
+}
