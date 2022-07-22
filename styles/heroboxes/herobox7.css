@@ -1,0 +1,24 @@
+.herobox7 {
+  background-color: #F7F9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 140px;
+  margin-bottom: 200px;
+}
+
+.herobox7 h1 {
+  font-size: 1.8rem;
+}
+
+.herobox7-logos {
+  margin-top: 20px;
+}
+
+.herobox7-logos img {
+  transform: scale(1.05);
+  margin-left: 0;
+  margin-right: 0;
+}
+
