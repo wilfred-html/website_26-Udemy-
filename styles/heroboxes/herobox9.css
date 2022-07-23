@@ -1,0 +1,85 @@
+.herobox9 {
+  height: 310px;
+  background-color: #1C1D1F;
+}
+
+.herobox9-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 220px;
+}
+
+.herobox9-container2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+.box-list-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  padding-left: 50px;
+}
+
+.box-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.box-list li {
+  margin-bottom: 10px;
+}
+
+.box-list li a {
+  color: white;
+}
+
+.box-list li:hover {
+  text-decoration: underline;
+}
+
+.language {
+  display: flex;
+  justify-content: end;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+.language button {
+  width: 160px;
+  font-size: 1.2rem;
+  height: 42px;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 100ms;
+}
+
+.language button:hover {
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+
+.box9 {
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.copyright {
+  position: relative;
+  top: 20px;
+ left: 250px;
+ color: white;
+ font-size: 0.9rem;
+
+}
