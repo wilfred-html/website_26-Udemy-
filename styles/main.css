@@ -191,19 +191,20 @@ main {
 .top-select {
   position: absolute;
   top: 0;
-  background-color: rgb(126, 110, 106);
+  background-color: black;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   color: white;
-  width: 100px;
-  height: 40px;
+  padding: 6px 10px;
   font-weight: 700;
+  border: 0.1mm solid lightgray;
 }
 
 .img-con {
   width: 20px;
-  margin-right: 14px;
+  margin-top: 5px;
+  margin-right: 2px;
 }
 
 .img-con img {
